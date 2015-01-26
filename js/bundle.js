@@ -9,9 +9,9 @@
   RaceTrack         = function() {
     // this class manages the race track
   },
-  Dragster          = function() {
+  Racecar          = function() {
     // grab the car element
-    this.$el = document.getElementById('dragster');
+    this.$el = document.getElementById('racecar');
     // set the starting position of the dragster
     this.$el.style.left = "0px";
   },
@@ -39,7 +39,7 @@
     // for the user pressing the right arrow key
     window.addEventListener('keyup', function(event) {
       if (event.keyCode === 39) {
-        self.dragster.advance();
+        self.racecar.advance(10px);
       }
     });
   };

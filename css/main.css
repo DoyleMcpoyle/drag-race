@@ -1,88 +1,73 @@
-/******* GENERAL ******/
-.center {
-  margin: 0 auto;
-}
-
-.abs {
+#racetrack {
+  height: 200px;
+  width: 80%;
+  border: 2px solid black;
+  background-color: red;
   position: absolute;
+  text-align: center;
+  top: 650px;
+  left: 10%;
 }
 
-/******* XMAS TREE ******/
-#christmas-tree {
-  margin: 20px auto;
-  width: 70px;
-  background: black;
-  color: white;
-  text-align: center;
-  font-size: 0.9em;
-  border: 4px solid #ccc;
+.center {
+  margin: auto;
+}
+
+#christmastree {
+  height: 350px;
+  width: 150px;
+  border: 2px solid black;
+  background-color: black;
+  margin: 0 auto;
+  bottom: 600px;
+}
+
+#prestage {
+  height: 200px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: black;
+  position: absolute;
+  left: 100px;
+}
+
+#staging {
+  height: 200px;
+  width: 15px;
+  border: 1px;
+  background-color: black;
+  position: absolute;
+  left: 200px;
+}
+
+#finish-line {
+  background-image: url('http://lapsincorporated.com/wp-content/gallery/flags/checkered.jpg');
+  background-size: cover;
+  width: 2%;
+  height: 200px;
+  position: absolute;
+  left: 1250px;
 }
 
 .lights {
-  border-bottom: 1px solid #ccc;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: white;
+  height: 50px;
 }
 
-.lights div {
-  display: inline-block;
-  background: white;
+body {
+  background-image: url('http://badgerherald.com/wordpress/media/2014/09/mkwii.jpg');
+  background-size: cover;
 }
 
-#pre-stage div, #stage div {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
+#racecar {
+  background-image: url('http://www.wingnuttoons.com/scbmatMM.jpg');
+  background-size: cover;
+  height: 50px;
+  width: 70px;
+  border: 1px solid black;
+  position: absolute;
+  top: 65px;
 }
 
-#pre-stage.on div {
-  background: yellow;
-}
-
-#start-lights div {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-}
-
-/******* RACETRACK ******/
-#racetrack {
-  background: green;
-  width: 90%;
-  height: 88px;
-  border: 2px solid black;
-}
-
-#strip {
-  width: inherit;
-  height: 88px;
-}
-
-.place {
-  height: 88px;
-  width: 10px;
-  min-height: 88px;
-  min-width: 10px;
-}
-
-#pre-staged {
-  left: 39px;
-  background: yellow;
-}
-
-#finish {
-  right: 49px;
-  background: white;
-}
-
-#staged {
-  left: 93px;
-  background: yellow;
-}
-
-#dragster {
-  background: url(../images/mario.png) no-repeat;
-  background-size: 39px 44px;
-  width: 39px;
-  height: 44px;
-  top: 20px;
-  z-index: 100;
-}
